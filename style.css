@@ -667,16 +667,6 @@ ul{
     text-align: center;
 }
 
-.js-scroll{
-    position: fixed;
-	z-index: 10;
-	top: 0;
-	left: 0;
-    overflow: hidden;
-	width: 100%;
-	will-change: transform;
-}
-
 .navigation-section{
     display: flex; 
     flex-direction: row;
