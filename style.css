@@ -210,6 +210,10 @@ ul{
     margin: auto;
 }
 
+.js-scroll{
+    overflow: hidden;
+}
+
 .container-top-2{
     display: flex; 
     flex-direction: row;
