@@ -69,7 +69,7 @@ body {
 }
 
 .studioimage {
-    margin-top: 75px;
+    margin-top: 85px;
     padding-bottom: 15px;
 }
 
@@ -1286,11 +1286,7 @@ ul{
 }
 
 @media only screen and (min-width: 290px) {
-
-    .studioimage {
-    margin-top: 15px;
-        padding-top:15px;
-    }    
+ 
     
     .aboutbio{
         margin-right:auto;
