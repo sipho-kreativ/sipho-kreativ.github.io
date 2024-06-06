@@ -68,7 +68,7 @@ body {
     z-index: -99999;
 }
 
-.studioimage{
+.studioimage {
     margin-top: 75px;
     padding-bottom: 15px;
 }
@@ -1286,7 +1286,11 @@ ul{
 }
 
 @media only screen and (min-width: 290px) {
-     
+
+    .studioimage {
+    margin-top: 15px;
+    }    
+    
     .aboutbio{
         margin-right:auto;
         width: auto;
