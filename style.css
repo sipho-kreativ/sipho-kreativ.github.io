@@ -553,6 +553,12 @@ ul{
     padding-bottom: 25px;
 }
 
+.concept9{
+    padding-top: 110px;
+    background-color: #470500;
+    padding-bottom: 25px;
+}
+
 .lists{
     font-family: 'Inter', sans-serif;
     color: #08223a;
@@ -625,6 +631,19 @@ ul{
 }
 
 .lists-12{
+    font-family: 'Inter', sans-serif;
+    color: #f0f3f7;
+    grid-column: span 8;
+    width: 91%;
+}
+
+.lists-13{
+    font-family: 'Inter', sans-serif;
+    color: #f0f3f7;
+    grid-column: span 2;
+}
+
+.lists-14{
     font-family: 'Inter', sans-serif;
     color: #f0f3f7;
     grid-column: span 8;
