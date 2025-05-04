@@ -1,23 +1,20 @@
-type="text/javascript
-document.addEventListener("DOMContentLoaded", function () {
-  reveal(); 
-  window.addEventListener("scroll", reveal); 
-});
+type="text/javascript">
+window.addEventListener('load', reveal);
 
-function reveal() {
-  const reveals = document.querySelectorAll('.reveal');
-  const windowHeight = window.innerHeight;
-  const revealPoint = 75;
+function reveal(){
+  var reveals = document.querySelectorAll('.reveal');
 
-  for (let i = 0; i < reveals.length; i++) {
-    const revealTop = reveals[i].getBoundingClientRect().top;
+  for(var i = 0; i < reveals.length; i++){
 
-    if (revealTop < windowHeight - revealPoint) {
+    var windowheight = window.innerHeight;
+    var revealtop = reveals[i].getBoundingClientRect().top;
+    var revealpoint = 75;
+
+    if(revealtop < windowheight - revealpoint){
       reveals[i].classList.add('active');
-    } else {
+    }
+    else{
       reveals[i].classList.remove('active');
     }
   }
 }
-
-  
