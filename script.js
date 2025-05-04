@@ -1,19 +1,19 @@
-type="text/javascript">
-window.addEventListener('load', reveal);
+document.addEventListener("DOMContentLoaded", function () {
+  reveal(); 
+  window.addEventListener("scroll", reveal); 
+});
 
-function reveal(){
-  var reveals = document.querySelectorAll('.reveal');
+function reveal() {
+  const reveals = document.querySelectorAll('.reveal');
+  const windowHeight = window.innerHeight;
+  const revealPoint = 75;
 
-  for(var i = 0; i < reveals.length; i++){
+  for (let i = 0; i < reveals.length; i++) {
+    const revealTop = reveals[i].getBoundingClientRect().top;
 
-    var windowheight = window.innerHeight;
-    var revealtop = reveals[i].getBoundingClientRect().top;
-    var revealpoint = 75;
-
-    if(revealtop < windowheight - revealpoint){
+    if (revealTop < windowHeight - revealPoint) {
       reveals[i].classList.add('active');
-    }
-    else{
+    } else {
       reveals[i].classList.remove('active');
     }
   }
