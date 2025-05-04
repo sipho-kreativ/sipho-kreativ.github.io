@@ -460,16 +460,17 @@ ul{
     transition: transform 0.5s ease, 700ms;
 }
 
-.reveal{
+.reveal {
     position: relative;
-    transform: translateY(75px);
+    transform: translate3d(0, 75px, 0);
     opacity: 0;
-    transition: all 1s ease;
-    margin: 0px auto;
+    transition: transform 0.6s ease, opacity 0.6s ease;
+    will-change: transform, opacity;
+    margin: 0 auto;
 }
 
-.reveal.active{
-    transform: translateY(0px);
+.reveal.active {
+    transform: translate3d(0, 0, 0);
     opacity: 1;
 }
 
