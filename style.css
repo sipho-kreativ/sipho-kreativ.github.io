@@ -518,6 +518,13 @@ ul{
     padding-bottom: 25px;
 }
 
+.concept2-1{
+    background-color: #470500;  
+    padding-top: 110px;
+    padding-bottom: 25px;
+}
+    
+
 .concept3{
     background-color: #3A0E0D;  
     padding-top: 110px;
@@ -1338,6 +1345,10 @@ ul{
     .concept2{
         padding-right: 95px;
     }
+
+    .concept2-1{
+        padding-right: 95px;
+}
 
     .concept4{
     padding-right: 95px;
