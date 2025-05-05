@@ -377,6 +377,17 @@ ul{
     object-fit: cover;
 }
 
+.column-taboo{
+    box-shadow: 5px 5px #1b1b1b;
+    perspective: 300px;
+    transition: transform 0.5s ease, 700ms;    
+}
+
+.column-taboo:hover{
+    box-shadow: 10px 10px #470500;  
+    transform: rotateX(10deg) rotateY(5deg);
+}
+
 .column-sisonke{
     box-shadow: 5px 5px  #1b1b1b;
     perspective: 300px;
@@ -523,7 +534,6 @@ ul{
     padding-top: 110px;
     padding-bottom: 25px;
 }
-    
 
 .concept3{
     background-color: #3A0E0D;  
@@ -558,12 +568,6 @@ ul{
 .concept8{
     padding-top: 110px;
     background-color: #0e7063;
-    padding-bottom: 25px;
-}
-
-.concept9{
-    padding-top: 110px;
-    background-color: #470500;
     padding-bottom: 25px;
 }
 
