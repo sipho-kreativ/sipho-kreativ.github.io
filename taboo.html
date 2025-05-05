@@ -8,16 +8,19 @@
       <link rel="shortcut icon" type="image/png" href="./favicon.png">
       <link rel="stylesheet" href="./style.css">
       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-      <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+      <link rel="preload" href="https://rsms.me/inter/inter.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      <noscript>
+         <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+      </noscript>
       <div class="top-section">
          <header class="container-top-2">
             <a href="./index.html"><img class="logo" src="./logo.svg"></a> 
             <a class="button" href="./index.html#project-fade">PROJECTS</a>
-      </header>
+         </header>
       </div>
    </head>
    <body>
-    <div class ="body-wrap">
+      <div class ="body-wrap">
       <div class="js-scroll">
       <Section class="concept2-1">
          <div class="container2 reveal">
@@ -28,9 +31,9 @@
             <div class="lists-14">
                <div class="client">Taboo Beauty Spa</div>
                <p class="brief">The project involved a comprehensive update of the user interface (UI) for the Taboo Beauty Spa salon's web application. 
-                To enhance user experience by creating a modern, intuitive, and visually appealing interface that reflects the salon's brand and services. 
-                The update focused improving navigation, accessibility, and responsiveness across devices, ensuring that clients can easily 
-                book appointments, and interact with the salon online and boost engagement. 
+                  To enhance user experience by creating a modern, intuitive, and visually appealing interface that reflects the salon's brand and services. 
+                  The update focused improving navigation, accessibility, and responsiveness across devices, ensuring that clients can easily 
+                  book appointments, and interact with the salon online and boost engagement. 
                </p>
             </div>
          </div>
@@ -41,7 +44,7 @@
       </div>
       <div class="background2">
          <div class="navigation-section"> 
-                        <a class="button-3" href="./quickbite.html">PREVIOUS</a> 
+            <a class="button-3" href="./quickbite.html">PREVIOUS</a> 
             <a class="button-2" href="./chanel.html">NEXT</a> 
          </div>
       </div>
@@ -63,8 +66,8 @@
             </div>
          </div>
       </footer>
-      <script src="script.js"></script>
-      <script src="today.js"></script>
+      <script src="script.js" defer></script>      
+      <script src="today.js" defer></script>
       </footer> 
    </body>
 </html>
