@@ -8,19 +8,23 @@
       <link rel="shortcut icon" type="image/png" href="./favicon.png">
       <link rel="stylesheet" href="./style.css">
       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-      <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+      <link rel="preload" href="https://rsms.me/inter/inter.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+      <noscript>
+         <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+      </noscript>
       <div class="top-section">
          <header class="container-top-2" >
             <a href="./index.html"><img class="logo" src="./logo.svg"></a> 
             <a class="button" href="./index.html#project-fade">PROJECTS</a>
-         <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-P6ND8SHZ');</script>
-<!-- End Google Tag Manager -->
-      </header>
+            <!-- Google Tag Manager -->
+            <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+               new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+               j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+               'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+               })(window,document,'script','dataLayer','GTM-P6ND8SHZ');
+            </script>
+            <!-- End Google Tag Manager -->
+         </header>
       </div>
    </head>
    <body>
@@ -60,7 +64,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                      <a class="mail2" href = "mailto: blukoconut@gmail.com"><span>&#9993;HELLO</span></a>
                   </div>
                   <div class="hello-footer2">
-                       <a class="mail2" href = "https://www.linkedin.com/in/sankabinde"><span>LinkedIn</span></a>
+                     <a class="mail2" href = "https://www.linkedin.com/in/sankabinde"><span>LinkedIn</span></a>
                   </div>
                   <div class="hello-footer3">
                      <a class="mail2" href = "https://github.com"><span>GITHUB</span></a>
@@ -69,8 +73,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </div>
          </div>
       </footer>
-      <script src="script.js"></script>
-      <script src="today.js"></script>
+      <script src="script.js" defer></script>      
+      <script src="today.js" defer></script>
       </footer> 
    </body>
 </html>
