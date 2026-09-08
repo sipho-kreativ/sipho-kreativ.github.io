@@ -806,28 +806,6 @@ ul{
     margin-bottom: 5px;
 }
 
-.hello-footer3::before {
-    content: '';
-    background-color: #f2f4f7;  
-    position: absolute;
-    left: -2;
-    bottom: 0.2px;
-    width: 58px;
-    height: 0.1px;
-    transition: all .4s ease-in-out;
-} 
-
-.hello-footer3:hover::before{
-    bottom: 2%;
-    height: 105%;
-}
-
-.hello-footer3{
-    position: relative;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
 .button {
     position: relative;
     top: 30%;
