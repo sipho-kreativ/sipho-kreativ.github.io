@@ -769,6 +769,15 @@ ul{
     letter-spacing: 0.1rem;
 }
 
+.copy{
+    text-decoration: none;
+    color:#f3f5f7e1;
+    text-decoration: none;
+    font-size: 0.72em;  
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+
 .mail2:hover{
     position: relative;
     color:#101010;
