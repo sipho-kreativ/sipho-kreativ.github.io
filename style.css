@@ -736,7 +736,9 @@ ul{
 .contacts_container{
     display: block;
     text-align:center;
-}
+    width:550px;
+    justify-content: space-between;
+    }
 
 .hello-footer{
     position: relative;
@@ -988,7 +990,7 @@ ul{
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        width: 230px;
+        max-width: 230px;
         padding-top: 0px;
     }
 
