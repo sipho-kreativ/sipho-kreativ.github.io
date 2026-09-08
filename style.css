@@ -1070,6 +1070,10 @@ ul{
         letter-spacing: 0.2rem;
         font-size: 1.33rem; 
     }
+
+        .contacts_container{
+        width: 350px;
+    }
 }
 
 @media (min-width: 400px) and (max-width: 500px) {
@@ -1077,6 +1081,10 @@ ul{
         line-height: 2.4rem;
         letter-spacing: 0.2rem;
         font-size: 1.8rem; 
+    }
+
+            .contacts_container{
+        width: 350px;
     }
 
     .abouttext{
@@ -1093,6 +1101,10 @@ ul{
         font-size: 2rem; 
     }
 
+            .contacts_container{
+        width: 350px;
+    }
+
     .abouttext{
         max-width: 1300px;
         width: 48%;
@@ -1107,6 +1119,10 @@ ul{
         font-size: 2.5rem; 
     }
 
+            .contacts_container{
+        width: 350px;
+    }
+
     .abouttext{
         max-width: 1300px;
         width: 48%;
@@ -1119,6 +1135,10 @@ ul{
         line-height: 3.9rem;
         letter-spacing: 0.8rem;
         font-size: 2.8rem; 
+    }
+
+            .contacts_container{
+        width: 350px;
     }
 
     .abouttext{
@@ -1159,6 +1179,10 @@ ul{
 
     .who{
         font-size: 2.250em; 
+    }
+
+            .contacts_container{
+        width: 350px;
     }
     
     .work{
