@@ -736,7 +736,7 @@ ul{
 .contacts_container{
     display: block;
     text-align:center;
-    width: 450px;
+    width: 350px;
     justify-content: space-between;
     }
 
@@ -990,7 +990,7 @@ ul{
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        width: 450px;
+        width: 350px;
         padding-top: 0px;
     }
 
