@@ -984,7 +984,7 @@ ul{
 
 
 
-@media only screen and (min-width: 1000px){
+@media only screen and (min-width: 950px){
 
     .contacts_container{
         display: flex; 
@@ -1022,12 +1022,6 @@ ul{
     width: 350px;
     padding-top: 0px;
     margin: 0px auto;
-}
-
-@media (min-width: 850px) and (max-width: 1000px) {
-    .contacts_container{
-    display: block; 
-    }
 }
 
 @media only screen and (min-width: 800px) {
