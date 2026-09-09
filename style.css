@@ -1334,10 +1334,18 @@ ul{
         margin-right: auto;
         padding-bottom: 20px;
     }
+            .contacts_container{
+        width: 350px;
+      margin: 0px auto;
+    }
 }
 
 @media only screen and (min-width: 290px) {
  
+      .contacts_container{
+        width: 350px;
+      margin: 0px auto;
+    }
     
     .aboutbio{
         margin-right:auto;
