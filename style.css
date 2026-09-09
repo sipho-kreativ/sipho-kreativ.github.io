@@ -1074,8 +1074,11 @@ ul{
     }
 
         .contacts_container{
-        width: 350px;
-      margin: 0px auto;
+   display: block;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    text-align: center;
     }
 }
 
@@ -1087,8 +1090,11 @@ ul{
     }
 
             .contacts_container{
-        width: 350px;
-                 text-align:center;
+   display: block;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    text-align: center;
     }
 
     .abouttext{
@@ -1106,8 +1112,11 @@ ul{
     }
 
             .contacts_container{
-        width: 350px;
-                 text-align:center;
+   display: block;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    text-align: center;
     }
 
     .abouttext{
@@ -1125,8 +1134,11 @@ ul{
     }
 
             .contacts_container{
-        width: 350px;
-        text-align:center;
+   display: block;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    text-align: center;
     }
 
     .abouttext{
@@ -1144,7 +1156,11 @@ ul{
     }
 
             .contacts_container{
-        width: 350px;
+   display: block;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    text-align: center;
     }
 
     .abouttext{
@@ -1335,16 +1351,23 @@ ul{
         padding-bottom: 20px;
     }
             .contacts_container{
-        width: 350px;
-      margin: 0px auto;
+   display: block;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    text-align: center;
     }
+    
 }
 
 @media only screen and (min-width: 290px) {
  
-      .contacts_container{
-        width: 350px;
-      margin: 0px auto;
+            .contacts_container{
+   display: block;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    text-align: center;
     }
     
     .aboutbio{
