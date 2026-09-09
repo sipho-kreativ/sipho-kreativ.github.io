@@ -738,6 +738,7 @@ ul{
     text-align:center;
     width: 350px;
     justify-content: space-between;
+      margin: 0px auto;
     }
 
 .hello-footer{
@@ -992,6 +993,7 @@ ul{
         align-items: center;
         width: 350px;
         padding-top: 0px;
+          margin: 0px auto;
     }
 
     .navigation-section-2 {
@@ -1073,7 +1075,7 @@ ul{
 
         .contacts_container{
         width: 350px;
-            text-align:center;
+      margin: 0px auto;
     }
 }
 
