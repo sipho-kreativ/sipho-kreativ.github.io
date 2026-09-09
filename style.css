@@ -1073,6 +1073,7 @@ ul{
 
         .contacts_container{
         width: 350px;
+            text-align:center;
     }
 }
 
@@ -1085,6 +1086,7 @@ ul{
 
             .contacts_container{
         width: 350px;
+                 text-align:center;
     }
 
     .abouttext{
@@ -1103,6 +1105,7 @@ ul{
 
             .contacts_container{
         width: 350px;
+                 text-align:center;
     }
 
     .abouttext{
@@ -1121,6 +1124,7 @@ ul{
 
             .contacts_container{
         width: 350px;
+        text-align:center;
     }
 
     .abouttext{
