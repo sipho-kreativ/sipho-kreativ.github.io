@@ -734,7 +734,7 @@ ul{
 }
 
 .contacts_container{
-    display: block;
+    display: flex;
     text-align:center;
     width: 350px;
     justify-content: space-between;
