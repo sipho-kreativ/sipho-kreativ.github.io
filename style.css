@@ -739,6 +739,7 @@ ul{
     width: 350px;
     justify-content: space-between;
       margin: 0px auto;
+     margin-right: 0px;
     }
 
 .hello-footer{
