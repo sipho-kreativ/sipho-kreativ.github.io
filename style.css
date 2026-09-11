@@ -995,7 +995,6 @@ ul{
         width: 350px;
         padding-top: 0px;
         margin-right:0px;
-          margin: 0px auto;
     }
 
     .navigation-section-2 {
@@ -1366,9 +1365,7 @@ ul{
    display: block;
     width: 100%;
     max-width: 350px;
-    margin: 0 auto;
     text-align: center;
-    margin-right: 0px; 
     }
     
 }
